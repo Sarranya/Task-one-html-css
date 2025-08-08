@@ -1,0 +1,267 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FEFCFB;
+}
+
+.header {
+    padding: 16px 32px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+}
+
+.nav-container {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    max-width: 1200px;
+    align-items: center;
+    padding: 1px 2px;
+    margin: 0 auto;
+    gap: 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: "Pacifico", cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-menu {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nav-menu a {
+    padding: 18px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-button {
+    display: flex;
+    margin-right: 80px;
+}
+
+.button-login {
+    color: #fa7436;
+    border: none;
+    background: transparent;
+    margin-right: 20px;
+}
+
+.button-signup {
+    background-color: #FA7436;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 8px;
+}
+
+.update-blog {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #FEFCFB;
+    margin-bottom: 55px;
+
+}
+
+.update-blog-text {
+    display: flex;
+    justify-content: center;
+    font-size: 54px;
+    font-weight: bold;
+    padding: 55px;
+    background: black;
+    flex: 1;
+}
+
+.text {
+    font-size: 54px;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    font-weight: bold;
+}
+
+.text span {
+    color: #FA7436;
+    font-weight: bold;
+}
+
+.update-blog-text {
+    background: orange;
+    flex: 1;
+}
+
+.blog-image {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 17px;
+}
+
+.blog-image-content {
+    width: 215px;
+    font-size: 19px;
+    line-height: 26px;
+    color: black;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.blog-image-date {
+    color: #999999;
+    padding: 0 15px;
+}
+
+/* Subscribe Section */
+.subscribe-container {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    max-width: 1200px;
+    align-items: center;
+    margin: 0 auto;
+    background-color: #FA7436;
+    margin-top: 15px;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 100px;
+}
+
+.subscribe-offer-content {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 48px;
+}
+
+.subscribe-vector-img {
+    position: absolute;
+    width: 400px;
+    height: auto;
+    left: 0;
+    bottom: 0;
+}
+
+.subscribe-element-img {
+    position: absolute;
+    width: 103px;
+    height: auto;
+    right: 7px;
+    top: 10px;
+}
+
+.subscribe-content {
+    width: 600px;
+    height: 150px;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+
+}
+
+.subscribe-mail {
+    display: flex;
+    justify-content: center;
+}
+
+.subscribe-mail-input {
+    width: 50%;
+    height: 60px;
+    border-radius: 13px;
+    border: none;
+    position: relative;
+    margin-left: 114px;
+}
+
+.subscribe-mail-input::placeholder {
+    color: #999999;
+    font-size: 18px;
+}
+
+.subscribe-button {
+    background-color: #FA7436;
+    color: white;
+    padding: 15px 25px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 8px;
+    /* margin-left: -97px; */
+    position: absolute;
+    margin: 8px;
+    margin-left: 580px;
+}
+
+/* Footer Section */
+.footer-container {
+    display: grid;
+    grid-template-columns: 440px 1fr 1fr 1fr;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-bottom: 1px solid #666666;
+    padding-bottom: 26px;
+}
+
+.footer-trabook {
+    display: grid;
+    grid-template-rows: auto auto auto;
+}
+
+.footer-trabook-logo {
+    font-size: 24px;
+    font-weight: bold;
+    display: grid;
+    padding: 14px;
+}
+
+.footer-trabook-content {
+    width: 260px;
+    padding: 14px;
+    color: #666666;
+    line-height: 24px;
+}
+
+.footer-company,
+.footer-contact,
+.footer-more {
+    display: grid;
+}
+
+.footer-company-heading,
+.footer-company-contact,
+.footer-more-heading {
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 22px;
+    font-weight: bold;
+    padding-top: 14px;
+}
+
+.footer-company-heading-menu,
+.footer-company-contact-menu,
+.footer-more-menu {
+    color: #666666;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 25px 0;
+    color: #666666;
+
+}
