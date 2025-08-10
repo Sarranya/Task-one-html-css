@@ -69,6 +69,85 @@ a {
     border-radius: 8px;
 }
 
+/* people about us */
+.people-aboutus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #F7F8FC;
+    margin-bottom: 55px;
+    padding: 80px;
+}
+
+.aboutus-content {
+    justify-content: center;
+    display: grid;
+    padding: 48px;
+}
+
+.people-say {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.aboutus {
+    font-size: 48px;
+    font-weight: bold;
+    color: #FA7436
+}
+
+.our-client {
+    padding: 25px 0;
+    width: 356px;
+    line-height: 25px;
+}
+
+.description {
+    display: grid;
+    align-items: center;
+}
+
+.des-details {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    background-color: white;
+    padding: 20px 40px;
+    margin-right: 105px;
+    position: relative;
+}
+
+.des-content {
+    font-size: 21px;
+    line-height: 32px;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-size: 20px;
+    margin-bottom: 13px;
+    font-weight: bold;
+}
+
+.place {
+    font-size: 20px;
+    margin-bottom: 13px;
+    color: #999999;
+}
+
+.des-image {
+    position: absolute;
+    margin-top: -20px;
+    margin-left: -30px;
+}
+
+.des-element {
+    position: absolute;
+    margin-top: -102px;
+    margin-left: 448px;
+}
+
+/* update blog */
 .update-blog {
     display: grid;
     grid-template-rows: 1fr auto;
