@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GUVI - Task 1</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
@@ -23,8 +28,57 @@
                 <button class="button-signup">Sign up</button>
             </div>
         </div>
+    </header> -->
+    <header class="navbar">
+        <div class="logo">Trabook
+            <img src="./Vector-header.png" alt="" class="header-vector">
+        </div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Destination</a>
+            <a href="#">Tour</a>
+            <a href="#">Blog</a>
+        </nav>
+        <div class="nav-buttons">
+            <a href="#" class="login">Login</a>
+            <a href="#" class="signup">Sign up</a>
+        </div>
     </header>
-    <main class="main-content">
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Get started your <span>exciting</span> <span class="highlight">journey</span> with us.</h1>
+            <p>A Team of experienced tourism professionals will provide you with the best advice and tips for your
+                desired place.</p>
+            <a href="#" class="btn-primary-discover">Discover Now</a>
+        </div>
+        <div class="hero-image">
+            <img src="./header-img.png" alt="Traveller">
+        </div>
+    </section>
+
+    <!-- Search Bar -->
+    <section class="search-box">
+        <div class="search-item">
+            <label>Location</label>
+            <p class="location">Where are you going</p>
+            <!-- <input type="text" placeholder="Where are you going"> -->
+        </div>
+        <div class="search-item">
+            <label>Date</label>
+            <p class="location">Where you will go</p>
+        </div>
+        <div class="search-item">
+            <label>Guest</label>
+            <p class="location">Number of guests</p>
+            <!-- <input type="number" placeholder="Number of guests"> -->
+        </div>
+        <button class="btn-primary">Explore Now</button>
+    </section>
+
+    <!-- <main class="main-content">
         <div class="destination-content">
             <div>Get started your exciting <span>journey</span>
                 with us.</div>
@@ -37,6 +91,169 @@
             <button>Discover Now</button>
         </div>
     </main> -->
+    <!-- Things You Need -->
+    <section class="todo-section">
+        <h2>Things you need <span>to do</span></h2>
+        <p class="subtitle">
+            We ensure that you'll embark on a perfectly planned,<br>
+            safe vacation at a price you can afford.
+        </p>
+
+        <div class="todo-container">
+
+            <div class="todo-card">
+                <div class="icon" style="color:#ff5722;">
+                    <img src="./things-image-one.png" alt="">
+                </div>
+                <h3>Sign Up</h3>
+                <p>Completes all the work associated with planning and processing</p>
+            </div>
+
+            <div class="todo-card">
+                <div class="icon" style="color:#007bff;">
+                    <img src="./things-image-two.png" alt="">
+                </div>
+                <h3>Worth of Money</h3>
+                <p>After successful access then book from exclusive deals & pricing</p>
+            </div>
+
+            <div class="todo-card">
+                <div class="icon" style="color:#ffc107;">
+                    <img src="./things-image-three.png" alt="">
+                </div>
+                <h3>Exciting Travel</h3>
+                <p>Start and explore a wide range of exciting travel experience.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- deals and discounts -->
+
+    <section class="deals-section">
+        <h2>Exclusive <span>deals & discounts</span></h2>
+        <p class="subtitle">Discover our fantastic early booking discounts<br>
+            & start planning your journey.</p>
+
+        <div class="deals-container">
+
+            <div class="deal-card">
+                <img src="./deal-img-one.png" alt="Madrid">
+                <div class="deal-info">
+                    <h3>Madrid</h3>
+                    <p class="country">Spain</p>
+                    <div class="rating-price">
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="price"><del>$950</del> <strong>$850</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deal-card">
+                <img src="./deal-image-two.png" alt="Firenze">
+                <button class="book-btn">Book Now</button>
+                <div class="deal-info">
+                    <h3>Firenze</h3>
+                    <p class="country">Italy</p>
+                    <div class="rating-price">
+                        <span class="rating">⭐ 4.5</span>
+                        <span class="price"><del>$850</del> <strong>$750</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deal-card">
+                <img src="./deal-image-three.png" alt="Paris">
+                <div class="deal-info">
+                    <h3>Paris</h3>
+                    <p class="country">France</p>
+                    <div class="rating-price">
+                        <span class="rating">⭐ 4.4</span>
+                        <span class="price"><del>$699</del> <strong>$599</strong></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="deal-card">
+                <img src="./deal-image-four.png" alt="London">
+                <div class="deal-info">
+                    <h3>London</h3>
+                    <p class="country">UK</p>
+                    <div class="rating-price">
+                        <span class="rating">⭐ 4.8</span>
+                        <span class="price"><del>$850</del> <strong>$850</strong></span>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Best Vacation Plan -->
+    <div class="vacation-plan">
+        <div class="best-plan">
+            <p class="best">Best &nbsp;<span class="plan">vacation plan</span>
+                <img src="./vac-element.png" alt="" class="vac-ele-img">
+            </p>
+            <p class="vacation-details">Plan your perfect vacation with our travel agency. Choose among hundreds of
+                all-inclusive offers! </p>
+        </div>
+        <div class="vac-images">
+            <div>
+                <img src="./vac-Imagethree.png" alt="">
+                <div class="trip-card">
+                    <h3>Rome, Italy</h3>
+                    <span class="price">$5,42k</span>
+                    <div class="trip-info">
+                        <div class="trip-days">
+                            <img src="location-icon.png" alt="">
+                            10 Days Trip
+                        </div>
+                        <div class="rating">
+                            <img src="star-icon.png" alt="">
+                            4.8
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./vac-Imagetwo.png" alt="">
+                <div class="trip-card">
+                    <h3>London, UK</h3>
+                    <span class="price">$2,42k</span>
+                    <div class="trip-info">
+                        <div class="trip-days">
+                            <img src="location-icon.png" alt="">
+                            07 Days Trip
+                        </div>
+                        <div class="rating">
+                            <img src="star-icon.png" alt="">
+                            4.7
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img src="./vac-Imagethree.png" alt="">
+                <div class="trip-card">
+                    <h3>Osaka, Japan</h3>
+                    <span class="price">$5,42k</span>
+                    <div class="trip-info">
+                        <div class="trip-days">
+                            <img src="location-icon.png" alt="">
+                            10 Days Trip
+                        </div>
+                        <div class="rating">
+                            <img src="star-icon.png" alt="">
+                            4.8
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- People say about us -->
     <div class="people-aboutus">
         <div class="aboutus-content">
